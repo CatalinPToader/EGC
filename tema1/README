@@ -1,0 +1,33 @@
+Repository of homework for the "Elements of Computer Graphics" course from UPB.
+Built upon their framework: https://github.com/UPB-Graphics/gfx-framework 
+
+Homework 1:
+
+IMPORTANT: The map file needs to be in the same folder as the executable
+           or the MAP_PATH_NAME define in tema1.cpp must be changed to its 
+           location.
+           If there's errors for namespace overwriting, you can safely
+           delete the namespaces from the labs as mine have built upon
+           them.
+
+To enter the Map Editor, change the EDIT_MODE define in tema1.cpp
+
+Keys for Gameplay:
+WASD -> Move Camera
+LMB -> Shoot Bullet
+Shift -> Run
+
+
+Keys For the Editor:
+WASD -> Move Camera
+LMB on Object -> Select Object
+LMB on Empty -> New Object
+Tab -> Show Selection (And stop camera movement)
+Shift -> Change speed of action to 2x.
+Ctrl -> Change speed of action to .5x.
+WASD -> Move Selection
++- -> Scale Selection
+\ -> Switch Scale Axis
+[] -> Rotate Selection
+Delete -> Delete Selection
+Enter -> Align Selection to nearest integer position and nearest angle divisible by 5.
